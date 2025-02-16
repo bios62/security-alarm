@@ -111,7 +111,7 @@ Create the Detection rule. In the detection rule creation screen, select the fol
 - "Rule Name", self-describing
 - "Saved search name", select the correct compartment and saved log analytics query for the metric
 - "target service", select type monitoring (which the alarm are a function of), Metric namespace, name and frequency.
-THe metric namespace is either an existing customer namespace or a new one. The new one will be created if the namespace name is nonexisting. If this is the first alarm, create a new descriptive name, otherwise select an existing name, if you want to group several alarms in the same namespace. Minimum interval is 5 minutes, normally a good choice for security alarms.
+The metric namespace is either an existing customer namespace or a new one. The new one will be created if the namespace name is nonexisting. If this is the first alarm, create a new descriptive name, otherwise select an existing name, if you want to group several alarms in the same namespace. Minimum interval is 5 minutes, normally a good choice for security alarms.
 
 ![addmetric2](images/addmetric2.png)
 Picture of first rule creation step
